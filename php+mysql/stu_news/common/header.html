@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>head</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<style type="text/css">
+		.go{
+			font-size: 40px;
+			/*color: red;*/
+
+    text-align: center; /*让div内部文字居中*/
+    /*background-color: #fff;*/
+    border-radius: 100px;
+    position: relative;
+    top: -10px;
+    left: 230px;
+};
+		a{
+			text-decoration: none;
+		};
+	</style>
+</head>
+<body>
+	<div id="header">
+		<a href="index.php">
+			<img src="../imgs/da.jpg" width="150" height="50" style="border-radius: 100px;">
+		</a>
+			<span class="go" style="color:#acf">
+				欢迎<?=$username?>登录本系统
+			</span>
+		<a href="loginout.php">
+			<span class="go" style="color:white;">
+				退出系统
+			</span>
+		</a>
+		<a href="index.php">
+			<img src="../imgs/da.jpg" width="150" height="50" style="border-radius: 100px;float: right;">
+		</a>
+	</div>
+</body>
+</html>
