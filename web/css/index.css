@@ -1,0 +1,108 @@
+#father{
+	width: 1300px;
+	height: 1100px;
+	margin: auto;
+}
+#clear{
+	clear: both;
+}
+.currentTime{
+	width: 214px;
+	height: 50px;
+	text-align:center;
+}
+.top1{
+	width: 216px;
+	height: 50px;
+	float: left;
+}
+.top2{
+	width: 441px;
+	height: 50px;
+	float: left;
+	text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top{
+	padding-top: 12px;
+	height: 38px;
+	float: right;
+}
+#menu1{
+	width: 200px;
+	height: 550px;
+	background-color: black;
+}
+#menu2{
+	width: 1300px;
+	height: 50px;
+	text-align: center;
+}
+ul li{
+	display: inline;
+	color: red;
+}
+#product{
+	width: 1300px;
+	height: 502px;
+}
+#product_bottom{
+	width: 100%;
+	height: 500px;
+}
+#product_bottom_left{
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+#product_bottom_right{
+	width: 1094px;
+	height: 500px;
+	float: right;
+}
+#big{
+	width: 544px;
+	height: 250px;
+	float: left;
+}
+#small{
+	width: 180px;
+	height: 250px;
+	float: left;
+	text-align: center;
+}
+#bottom{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+#aaa{
+	width: 1300px;
+	height: 200px;
+
+}
+#ccc{
+	float: left;
+	width: 648px;
+	height: 200px;
+	display: table;
+	text-align:center;
+}
+#ddd{
+	float: right;
+	width: 650px;
+	height: 200px;
+	display: table;
+	text-align:center;
+}
+#bbb{
+	background: white;
+}			
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: auto;
+}

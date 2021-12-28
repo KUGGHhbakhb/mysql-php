@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>使用DIV+CSS完成首页重新布局</title>
+		<link rel="stylesheet" type="text/css" href="css/container.css">
+		<link rel="stylesheet" type="text/css" href="css/baidu.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<div id="father">
+			<div id="logo">
+				<div class="top1">
+					<img src="imgs/da.jpg">
+				</div>
+				<div id="currentTime" class="top2">
+					  <script type="text/javascript" src="js/time.js"></script>
+
+				</div>
+				<div class="top2">
+					<script type="text/javascript" src="js/sentence.js"></script>
+				</div>
+				<div class="top" id="top">
+					<a href="login.html" style="border-radius: 50px;
+					 							background: #0dbfdd;
+					  							width: 34%;
+											    margin: 0 auto;
+											    padding: 10px;
+											    border: 1px solid #cccbcb;
+											    text-decoration: none;
+											    color: white;">登录</a>
+
+					<a href="register.html" style="border-radius: 50px;
+					 							background: #0dbfdd;
+					  							width: 34%;
+											    margin: 0 auto;
+											    padding: 10px;
+											    border: 1px solid #cccbcb;
+											    text-decoration: none;
+											    color: white;">注册</a>
+				</div>				
+			</div>
+					<div class="container1">
+						<form action="https://www.baidu.com" class="parent1">
+							<input type="text" name="serach">
+							<input type="submit" value="百度一下" name="">
+						</form>
+						<script type="text/javascript">
+							$('input[name="serach"]').bind('keypress',function (event)){
+								if(event.keyCode == "13"){
+									$("#serach-go").click();
+								}
+							}
+						</script>
+					</div>
+					<!--2.导航栏部分-->
+					<div id="menu2">
+						<link rel="stylesheet" type="text/css" href="css/nav.css">
+						<ul>
+				<div class="dropdown5">
+		            <a href="#" class="dropbtn5">首页</a>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">短片</a>
+		            <div class="dropdown5-content">
+		                <a href="#">潮院瞬间</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">电视剧</a>
+		            <div class="dropdown5-content">
+		                <a href="#">爱情公寓</a>
+		                <a href="#">你要去哪里</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">动漫</a>
+		            <div class="dropdown5-content">
+		                <a href="#">青龙之奥特曼</a>
+		                <a href="#">芭比娃娃</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">综艺</a>
+		            <div class="dropdown5-content">
+		                <a href="#">给</a>
+		                <a href="#">来</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">纪录片</a>
+		            <div class="dropdown5-content">
+		                <a href="#">航拍</a>
+		                <a href="#">动物世界</a>
+		                <a href="#">大国担当</a>
+		                <a href="#">最美逆行者</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">影评</a>
+		            <div class="dropdown5-content">
+		                <a href="#">豆瓣评分</a>
+		                <a href="#">大众评分</a>
+		                <a href="#">专家评价</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">电影推荐</a>
+		            <div class="dropdown5-content">
+		                <a href="#">美丽中国</a>
+		                <a href="#">舌尖上的美味</a>
+		                <a href="#">行走的旅途</a>
+		            </div>
+		        </div>
+		        <div class="dropdown5">
+		            <a href="#" class="dropbtn5">感悟</a>
+		            <div class="dropdown5-content">
+		                <a href="#">龙猫</a>
+		                <a href="#">悬崖上的金鱼</a>
+		                <a href="#">起风了</a>
+		            </div>
+		        </div>
+		    </ul>
+			</div>
+
+			<div id="aaa">
+				<div >
+        	<div id="ccc" style="color: red;">
+            	<h3 ><a href="/name/zt/" style="color: red;">金句</a></h3>
+                <ol id="bbb">
+                	<li style="list-style: none;"><a href="/name/zt/652417.html" style="color: red;">不悔梦归处，只恨太匆匆。</a></li>
+                	<li style="list-style: none;"><a href="/name/zt/652001.html" style="color: red;">死亡不是生命的终点，遗忘才是。</a></li>
+                	<li style="list-style: none;"><a href="/name/zt/650672.html" style="color: red;">Im Dawson, Rose Dawson.(以你之姓,以我之名)</a></li>
+                	<li style="list-style: none;"><a href="/name/zt/650125.html" style="color: red;">傲慢让别人无法爱我，偏见让我无法爱别人。</a></li>
+                	<li style="list-style: none;"><a href="/name/zt/649697.html" style="color: red;">我们笑着说再见，却深知再见遥遥无期。</a></li>
+                	<li style="list-style: none;"><a href="/name/zt/648550.html" style="color: red;">一场彗星雨，隔断了时空，隔不断思念。</a></li>
+                </ol>
+            </div>
+            <div id="ddd">
+            	<h3 ><a href="/gexing/zt/" style="color:blue;">出处来源</a></h3>
+                <ol id="bbb" style="color: blue;">
+                    <li style="list-style: none;"><a href="/gexing/zt/760801.html" style="color: blue;">《匆匆那年》</a></li>
+                    <li style="list-style: none;"><a href="/gexing/zt/759860.html" style="color: blue;">《寻梦环游记》</a></li>
+                    <li style="list-style: none;"><a href="/gexing/zt/756231.html" style="color: blue;">《泰坦尼克号》</a></li>
+                    <li style="list-style: none;"><a href="/gexing/zt/755197.html" style="color: blue;">《傲慢与偏见》</a></li>
+                    <li style="list-style: none;"><a href="/gexing/zt/754246.html" style="color: blue;">《海上钢琴师》</a></li>
+                    <li style="list-style: none;"><a href="/gexing/zt/750609.html" style="color: blue;">《你的名字》</a></li>
+                </ol>
+            </div>
+        </div>
+			</div>
+			<div class="container">
+		        <img class="on" src="imgs/1.jpg" />
+		        <img src="imgs/2.jpg" />
+		        <img src="imgs/3.jpg" />
+		        <img src="imgs/4.jpg" />
+		        <img src="imgs/5.jpg" />
+		        <div class="left"><</div>
+		        <div class="right">></div>
+		        <ul>
+		            <li class="active"></li>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		        </ul>				
+			</div>
+			<div>
+				<br>
+			</div>
+			<div id="product">
+				<div id="product_bottom">
+					<div id="product_bottom_left">
+						<div class="tabs">
+						    <nav>
+						      <a href="javascript:;" data-cont="local"  class="active">极速车王</a>
+						      <a href="javascript:;" data-cont="global" >绅士们</a>
+						    </nav>
+						    <section class="cont" id="local" style="display:block">
+						      <ol>
+						        <li>极速车王</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						        <li>第92届奥斯卡金像奖 詹姆斯·曼高德</li>
+						      </ol>
+						    </section>
+						    <section class="cont" id="global" >
+						      <ol>
+						        <li>绅士们</li>
+						        <li>知道了</li>
+						        <li>明白了</li>
+						        <li>清楚了</li>
+						        <li>了解了</li>
+						        <li>收到了</li>
+						      </ol>
+						    </section>
+						  </div>
+					  		<link rel="stylesheet" type="text/css" href="css/tabs.css"> 
+						</div>
+						<div id="product_bottom_right">
+							<div id="big">
+							<video width="540" height="218" autoplay controls loop="loop" >
+								<source src="这个夏天.mp4" type="video/mp4"></source>
+							</video>
+							<div style="width: 546px;height: 22px;">
+								<button id="play">播放</button>
+								<button id="ponse">暂停/继续</button>
+								<button id="meter">静音</button>
+								<button id="load">重播</button>
+							</div>
+							<script type="text/javascript" src="js/play.js"></script>
+						</div>
+						<div id="small">
+							<img src="imgs/千与千寻.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">千与千寻</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/毛毛虫波罗.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">毛毛虫波罗</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/龙猫.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">龙猫</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/起风了.jpg" width="90%" height="80%" />
+							<a href="#"><p style="color: gray;">起风了</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/巨神兵现身东京.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">巨神兵现身东京</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/悬崖上的金鱼公主.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">悬崖上的金鱼公主</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/酵母与鸡蛋公主.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">酵母与鸡蛋公主</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/种下星星的日子.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">种下星星的日子</p></a>
+						</div>
+						<div id="small">
+							<img src="imgs/哈尔的移动城堡.jpg" width="90%" height="80%"/>
+							<a href="#"><p style="color: gray;">哈尔的移动城堡</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="">
+				<p></p>
+				<p></p>
+			</div>
+			<div id="">
+				<img src="imgs/往期精选.jpg" width="90%" height="10%" class="aligncenter"/>
+			</div>
+			<div id="bottom">
+				<a href="https://movie.douban.com/">关于我们</a>
+				<a href="https://movie.douban.com/">联系我们</a>
+				<a href="https://movie.douban.com/">招贤纳士</a>
+				<a href="https://movie.douban.com/">法律声明</a>
+				<a href="https://btbtt11.com/">BT之家</a>
+				<a href="https://trackerslist.com">天堂电影</a>
+				<a href="http://potplayer.daum.net/">大众影院</a>
+				<a href="https://rarbgprx.org">最美戏院</a>
+				<a href="https://torrentgalaxy.to/">上海影院</a>
+				<a href="https://www.qbittorrent.org/">大陆电影</a>
+				<a href="http://www.bitcomet.com/">欧美电影</a>
+				<a href="https://motrix.app/">好看电影</a>
+				<a href="https://movie.douban.com/">豆瓣电影</a>
+				<a href="https://www.themoviedb.org/">TMDB</a>
+			</div>
+				<p align="center">
+					潮汕职业技术学院理工学院网络一班 © 2021-2077 大柱子 版权所有 普宁公安
+				</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/container.js"></script>
+	<script type="text/javascript" src="js/tabs.js"></script>
+</html>
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style type="text/css">
+    body{
+            background-image:url(imgs/ghj.jpg);
+            background-repeat: no-repeat;
+            background-size:100%;
+        }
+         .ok {
+        color: green;
+        border: 1px solid green;
+      }
+      .error {
+        color: red;
+        border: 1px solid red;
+      }
+      .content-form-signup1 {
+       width: 10%;
+       margin: 0 auto;
+       padding: 10px;
+       border: 1px solid #cccbcb;
+       border-radius: 50px;
+       font-size: 1em;
+       font-weight: bold;
+       color: #fff;
+       background: #0dbfdd;
+       cursor: pointer;
+        margin-left: 15px;
+      }
+      .content-login-description1 {
+       margin-top: 20px;
+       margin-left: 50px;
+      /* line-height: 1.63636364;*/
+       color: white;
+       font-size: .91666667rem;
+      }
+      .content-login-link1 {
+       font-size: 16px;
+       color: #0dbfdd;
+       text-decoration: none;
+        margin-left: 50px;
+      }
+    </style>
+  <script src="js/register.js"></script>
+</head>
+<body>
+    <header>
+      <div class="header-line"></div>
+    </header>
+    <div class="content">
+      <h1 style="color: #0dbfdd; margin-left: 50px;">注册</h1>
+    </div>
+    </div>
+      <form method="post" >
+        <div id="change_margin_1">
+          <input type="text" id="code" class="user1" placeholder="请输入用户名" onblur="check_code()"/>
+          <span id="code_msg">6-10位</span>
+        </div>
+        <p>
+          <input type="text" id="pwd" class="password1" placeholder="请输入密码" onblur="check_pwd()" />
+          <span id="pwd_msg">8-20位</span>
+        </p>
+         <p>
+          <input type="text" id="pwd1" class="password1" placeholder="请再输入密码" onblur="check_pwd1()" />
+          <span id="pwd_msg1">8-20位</span>
+        </p>
+         <div>
+        <input class="content-form-signup1" type="submit" value="注册"/>
+      </div>
+      </form>
+    <div class="content-login-description1">已有账户？</div>
+    <a class="content-login-link1" href="index.html">登录</a>
+</body>
+</html>

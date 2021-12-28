@@ -1,0 +1,33 @@
+.container1 {
+    width: 500px;
+    height: 50px;
+    margin: 20px auto;
+    clear: both;
+}
+.parent1 {
+    width: 100%;
+    height: 42px;
+    top: 4px;
+    position: relative;
+}
+.parent1>input:first-of-type {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+.parent1>input:first-of-type:focus {
+    border: 1px solid #555;
+    padding-left: 10px;
+}
+.parent1>input:last-of-type {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background: #3ea1c8;
+    border: 1px solid #3ea1c8;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}

@@ -1,0 +1,82 @@
+.video{
+    width: 546px;
+    height: 212px;
+    /*position: absolute;*/
+    left: 0;
+    right: 0;
+    margin:auto;
+    border:1px solid black;
+    background: black;
+}
+.video>video{
+    width: 546px;
+    height: 212px;
+}
+.video>.controls{
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0;
+    height: 40px;
+    background: white;
+}
+.controls>div:not(.time){
+    border-radius:50%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: black;
+    font-size: 12px;
+margin:0px 0px 0px 10px;
+        position: relative;
+}
+
+.go{
+    left:32px;
+}
+.back{
+    left:64px
+}
+.progress{
+    border-radius:5px !important;
+    left:108px;
+    width: 300px !important;
+    height: 6px !important;
+    background: silver !important;
+}
+.progressInner{
+    background:gray;
+    height:100%;
+    width: 0;
+}
+.progress>.circle{
+    position:absolute;
+    top:-3px;
+    left:-6px;
+    display: inline-block;
+    border-radius:50%;
+    background: black;
+    width: 13px;
+    height: 13px;
+}
+.mute{
+    right: 66px;
+}
+.volume{
+    right: 34px;
+}
+.allScreen{
+    right: 2px;
+}
+.time{
+   right: 108px;
+    line-height: 40px;
+    font-size: 12px;
+}
+#range{
+    display: none;
+    transform:rotate(-90deg) !important;
+    right: -18px;
+    bottom: 90px;
+}
